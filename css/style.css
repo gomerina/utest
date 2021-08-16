@@ -107,9 +107,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
+.menu__item {
+  color: #002855;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+.dropdown {
+  margin-left: auto;
+  margin-right: 71px;
+}
 .header-top-list{
   background-color: #FAFBFC;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.header-top-list li {
+  list-style-type: none;
 }
 .header-bottom__link {
   margin-left: auto;
@@ -1477,6 +1495,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992.98px){
   .slider-recomended__icon{
     display: none;
+  }
+  .dropdown {
+    margin-left: auto;
+    margin-right: 21px;
   }
   .mob-buy-button{
     padding:12px 40px;
