@@ -1896,9 +1896,6 @@ h1, h2, h3, h4, h5, h6 {
     order: -1;
     margin: 26px 0 0 0 !important;
   }
-  .container-xxl {
-    order: 1;
-  }
   .slider-recomended {
     margin: 20px auto 41px auto;
   }
